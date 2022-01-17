@@ -81,7 +81,7 @@ namespace RecordExamples.CustomerRecord
     // Records also provide short notation
     public record CustomerShortNotation(string Firstname, string Lastname, int Age);
 
-    // It is same as writing this
+    // It is same as writing the following
     public record CustomerShortNotation_Expanded
     {
         public string FirstName { get; init; }

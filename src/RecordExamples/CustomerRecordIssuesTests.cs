@@ -78,7 +78,7 @@ namespace RecordExamples.CustomerRecordIssues
         {
             // For more complex validations rules, where the rule requires several values and validates them as a group,
             // then, we can't really implement them with full properties.
-            // We usually place them in the constructor, thus, they're be bypassed if "with" is used.
+            // We usually place them in the constructor, thus, they're are bypassed if "with" is used.
             if (!(firstName.Equals("Fati") && lastName.Equals("Iseni"))) throw new ArgumentException();
 
             this.FirstName = firstName;
