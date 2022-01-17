@@ -2,6 +2,7 @@
 using RecordExamples.CustomerModifiedClass;
 using RecordExamples.CustomerRecord;
 using RecordExamples.CustomerRecordIssues;
+using RecordExamples.CustomerRecordWithCollection;
 using System;
 
 namespace RecordExamples
@@ -14,6 +15,7 @@ namespace RecordExamples
             CustomerModifiedClassTests.Run();
             CustomerRecordTests.Run();
             CustomerRecordIssuesTests.Run();
+            CustomerRecordWithCollectionTests.Run();
 
             Console.ReadLine();
         }
